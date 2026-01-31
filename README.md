@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nanminBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-nanmin-by@deno/mod.js';
+import nanminBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-nanmin-by@v0.1.0-deno/mod.js';
 ```
 
 #### nanminBy( x, clbk\[, thisArg] )
@@ -127,7 +127,7 @@ var cnt = context.count;
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@deno/mod.js';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import nanminBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-nanmin-by@deno/mod.js';
+import nanminBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-nanmin-by@v0.1.0-deno/mod.js';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
